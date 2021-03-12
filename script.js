@@ -1,11 +1,5 @@
-var rockps = [
-    "rock",
-    "paper",
-    "scissors"
-]
-
-var randomString = rockps[Math.floor(Math.random()*rockps.length)];
-
 function computerPlay() {
-  console.log(randomString);
-}
+    let choices = ["rock", "paper", "scissor"];
+    return choices[Math.floor(Math.random() * choices.length)];
+  }
+  let computerSelection = computerPlay();
