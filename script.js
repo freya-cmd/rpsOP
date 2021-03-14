@@ -14,7 +14,7 @@ if (choice1 === choice2) {
 return "Tie!";
 }
 
-if (choice1 === "rock") {
+if (choice1 === "blubber") {
 	if (choice2 === scissors) {
 		return "rock wins";
 	} else { 
